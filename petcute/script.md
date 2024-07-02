@@ -34,3 +34,12 @@ insert into pacientes(nombre, especie, raza, edad, "dueño", telefono) values
 insert into pacientes(nombre, especie, raza, edad, "dueño", telefono) values 
 ('polo', 'gato', 'siames', 5, 'richard gonzalez', '434347481')
 ```
+
+```sql
+insert into pacientes(nombre, especie, raza, edad, "dueño", telefono) values 
+('Luna', 'perro', 'bulldog', 3, 'Juan Pérez', '423423421'),
+('Nina', 'gato', 'persa', 2, 'Ana Gómez', '423423422'),
+('Max', 'perro', 'golden retriever', 6, 'Carlos Díaz', '423423423'),
+('Simba', 'gato', 'bengalí', 1, 'Marta López', '423423424'),
+('Buddy', 'perro', 'beagle', 4, 'Luis Martínez', '423423425');
+```
