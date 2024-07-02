@@ -27,5 +27,10 @@ create table consultas (
 	constraint fk_servicio foreign key(id_servicio) references servicios(id_servicio)
 )
 
+-- Insertar datos
+insert into pacientes(nombre, especie, raza, edad, "dueño", telefono) values 
+('rocky', 'perro', 'ladrador', 5, 'sofia menares', '474747481')
 
+insert into pacientes(nombre, especie, raza, edad, "dueño", telefono) values 
+('polo', 'gato', 'siames', 5, 'richard gonzalez', '434347481')
 ```
