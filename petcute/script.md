@@ -43,3 +43,21 @@ insert into pacientes(nombre, especie, raza, edad, "dueño", telefono) values
 ('Simba', 'gato', 'bengalí', 1, 'Marta López', '423423424'),
 ('Buddy', 'perro', 'beagle', 4, 'Luis Martínez', '423423425');
 ```
+
+```sql
+
+insert into servicios(descripcion, costo) values 
+('Consulta general', 50.00),
+('Vacunación', 25.00),
+('Desparasitación', 30.00),
+('Cirugía', 200.00),
+('Consulta especializada', 100.00);
+```
+
+#### Inserción de Consultas
+```sql
+insert into consultas(id_paciente, id_servicio, fecha, diagnostico, tratamiento) values 
+(1, 1, '2023-07-01', 'Revisión general, todo en orden.', 'No requiere tratamiento.'),
+(2, 2, '2023-07-02', 'Aplicación de vacuna antirrábica.', 'Vacuna aplicada.'),
+(3, 3, '2023-07-03', 'Desparasitación programada.', 'Antiparasitario administrado.'),
+```
