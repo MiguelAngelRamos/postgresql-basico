@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/1a49e520-4507-4346-af5f-5f764304583c)create table authors (
+```sql
+create table authors (
 	id serial primary key,
 	name varchar(100) not null,
 	birthdate DATE
@@ -95,4 +96,4 @@ delete from authors where id = 3;
 
 -- Eliminar todos los registros de autores (nunca realizar esto elimina todo)
 delete from authors;
-
+```
